@@ -1,0 +1,58 @@
+@import url("https://fonts.googleapis.com/css2?family=Poppins:wght@500&family=Raleway:wght@200&display=swap");
+.item {
+    width: 90%;
+    border-bottom: 1px rgba(0, 0, 0, 0.164) solid;
+    font-family: "Raleway", sans-serif;
+    display: flex;
+    align-items: flex-start;
+    padding-bottom: 1%;
+}
+img {
+    border: 1px rgba(34, 34, 34, 0.336) solid;
+    border-radius: 50px 50px;
+    margin-top: 2%;
+    margin-left: 2%;
+}
+h1 {
+    font-family: "Poppins", sans-serif;
+    font-weight: bolder;
+    margin-bottom: 1%;
+}
+h5 {
+    margin: 1%;
+    width: 100%;
+}
+.student_informations {
+    margin-left: 5%;
+    width: 100%;
+}
+.second-titles {
+    padding-left: 2%;
+    width: 100%;
+}
+input[type="checkbox"] {
+    display: none;
+}
+input[placeholder="add tag"] {
+    width: 30%;
+    height: 5%;
+}
+label:hover {
+    cursor: pointer;
+}
+.close {
+    display: none;
+}
+.tags {
+    width: 60%;
+    display: flex;
+    justify-content: space-around;
+    flex-wrap: wrap;
+}
+.tags > h5 {
+    width: auto;
+    background-color: rgba(151, 135, 135, 0.74);
+    font-weight: bold;
+    font-size: 1.1em;
+    padding: 5% 5%;
+}

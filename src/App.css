@@ -1,0 +1,7 @@
+.App {
+    text-align: left;
+    box-sizing: border-box;
+    background-color: rgba(170, 167, 167, 0.466);
+    padding-top: 5%;
+    height: 100vh;
+}

@@ -1,0 +1,21 @@
+@import url("https://fonts.googleapis.com/css2?family=Poppins:wght@500&family=Raleway:wght@200&display=swap");
+
+.list {
+    margin: auto;
+    width: 50%;
+    box-sizing: border-box;
+    background-color: rgb(255, 254, 254);
+    border-radius: 10px;
+    height: 80vh;
+    overflow: auto;
+    padding-left: 2%;
+    scroll-behavior: smooth;
+}
+input[type="text"] {
+    width: 90%;
+    height: 5%;
+    margin-top: 2%;
+    border: none;
+    border-bottom: 2px solid rgb(131, 131, 131);
+    font-family: "Raleway", sans-serif;
+}
